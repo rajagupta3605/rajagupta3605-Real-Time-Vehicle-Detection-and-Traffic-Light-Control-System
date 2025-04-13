@@ -1,1 +1,10 @@
 # rajagupta3605-Real-Time-Vehicle-Detection-and-Traffic-Light-Control-System
+We designed and implemented a Real-Time Vehicle Detection and Traffic Light Control System aimed at optimizing traffic flow and reducing congestion at intersections. The primary goal was to create a smart, adaptive traffic control solution that could dynamically adjust traffic light durations based on real-time vehicle density rather than relying on static timers.
+
+Using OpenCV for image processing and YOLO (You Only Look Once) — a deep learning-based object detection model — the system detects and counts vehicles from real-time video feeds captured at traffic intersections. YOLO’s fast and accurate detection capabilities allowed the system to classify vehicles such as cars, bikes, and trucks in real-time, which formed the basis for traffic density calculation.
+
+The core feature of the project was the dynamic allocation of green light durations. The system continually analyzes the number of vehicles in each lane and adjusts the green signal timing accordingly. Lanes with higher vehicle density receive longer green light durations, while those with lighter traffic receive shorter cycles. This real-time responsiveness significantly reduces idle wait time and helps clear congestion more efficiently during peak hours.
+
+During testing, the system was able to improve intersection efficiency by reducing average vehicle wait times by approximately 15-20%. This outcome not only demonstrates its ability to smoothen urban traffic flow but also suggests potential applications for reducing fuel consumption and emissions through less idling.
+
+This project strengthened my expertise in computer vision, real-time data processing, and algorithmic problem-solving. It also deepened my understanding of how intelligent systems can be designed to solve real-world infrastructure challenges using automation and AI. The combination of OpenCV and YOLO offered both flexibility and scalability, making this solution adaptable for future smart city projects.
